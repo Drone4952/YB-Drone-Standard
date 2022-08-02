@@ -53,4 +53,4 @@ This standard is not intended to be used with other drone standards such as [Hex
 ## [Section 6: End-user Implementation](./Section%206%20-%20End-user%20Implementation.md)
 - Visual recommendations
 - Variations
-
+- Subject properties
