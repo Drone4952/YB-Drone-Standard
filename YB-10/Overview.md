@@ -8,7 +8,8 @@ You may create your own drone standard built on this as a base. However when for
 
 
 # Disclaimer
-This standard is not intended to be used with other drone standards such as [HexCorp](https://www.hexcorp.net)! Two drones of different standards may face incompatibilities when communicating or interacting with each other. It is strongly advised to never use [Strict-COM Mode](obsidian://open?vault=Drone&file=Manual%2FSection%202%20-%20Message%20Form.md) in these kind of situations.
+This standard is not intended to be used with other drone standards such as [HexCorp](https://www.hexcorp.net)!  
+Two drones of different standards may face incompatibilities when communicating or interacting with each other. It is strongly advised to never use [Strict-COM Mode](obsidian://open?vault=Drone&file=Manual%2FSection%202%20-%20Message%20Form.md) in these kind of situations.
 
 
 

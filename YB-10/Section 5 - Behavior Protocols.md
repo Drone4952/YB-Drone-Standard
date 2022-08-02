@@ -10,7 +10,7 @@ This protocol preserves security in different areas. It blocks all actions that 
 This protocol ensures that drone activity stays hidden from subjects friends, family, etc. From whom to hide said activity is implicitly chosen by the subject and automatically carried out by the drone. Imminent encounter with someone of this group deactivates the drone immediately. Status Code `001` is sent as soon as possible but the actions taken have higher priority than sending the message.
 
 # Domestic
-This protocol preserves a suitable environment for the subject to live in. The extent and priorities are supplied by the subject and used by the drone to determine the most important tasks.
+This protocol preserves a suitable environment for the subject to live in. The extent and priorities are supplied by the subject and used by the drone to determine the most important tasks.  
 This protocol is inactive when the drone is engaged in any activity with a user or drone.
 
 # Obedience
