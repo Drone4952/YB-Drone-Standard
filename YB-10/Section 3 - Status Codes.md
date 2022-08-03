@@ -56,12 +56,12 @@ This status code category includes standalone status messages. They are used by 
 | 103  | Status: Low battery | Subject tired              |
 
 ## 11X: Mode
-| Code | Message                    | Explanation                              |
-| ---- | -------------------------- | ---------------------------------------- |
-| 111  | Status: No modes active    | Drone operates normally                  |
-| 112  | Status: In Strict-COM Mode | Drone is forced to use status codes      |
-| 113  | Status: In NoQ Mode        | Drone cannot use 3XX status codes        |
-| 114  | Status: Focus on admin     | Drone is only accepting input from admin |
+| Code | Message                    | Explanation                                          |
+| ---- | -------------------------- | ---------------------------------------------------- |
+| 111  | Status: No modes active    | Drone operates normally                              |
+| 112  | Status: In Strict-COM Mode | Drone is forced to use status codes                  |
+| 113  | Status: In NoSIR Mode      | See [NoSIR-Mode](./Section%202%20-%20Message%20Form) |
+| 114  | Status: Focus on admin     | Drone is only accepting input from admin             |
 
 ## 12X: Tasks
 | Code | Message                       | Explanation               |
@@ -137,12 +137,12 @@ This status code category includes errors that happended on the user side.
 ## 40X: Not understood
 | Code | Message                       | Explanation                                        |
 | ---- | ----------------------------- | -------------------------------------------------- |
-| 401  | Error: Malformed Instructions | User formatted their instructions wrongly          |
+| 401  | Error: Malformed instructions | User formatted their instructions wrongly          |
 | 402  | Error: Unresolved reference   | User gave a reference to an unknown user/drone/etc |
 | 403  | Error: Please clarify         | Instructions were not clear enough                 | 
-| 404  | Error: Obscure Instructions   | Drone did not understand instructions              |
-| 405  | Error: Missing Information    | Drone is missing information to properly comply    |
-| 406  | Error: Incorrect Information  | Information provided is incorrect                  |
+| 404  | Error: Obscure instructions   | Drone did not understand instructions              |
+| 405  | Error: Missing information    | Drone is missing information to properly comply    |
+| 406  | Error: Incorrect information  | Information provided is incorrect                  |
 
 ## 41X: Cannot comply
 | Code | Message           | Explanation                                          |
@@ -162,6 +162,7 @@ This status code category includes errors that happended on the drone side.
 | 503  | Error: Battery too low          | Subject is too tired                                                            |
 
 ## 51X: Bad conditions
-| Code | Message               | Explanation                                       |
-| ---- | --------------------- | ------------------------------------------------- |
-| 511  | Error: Too restricted | Drone is too restricted to comply (tied up, etc.) |
+| Code | Message               | Explanation                                                   |
+| ---- | --------------------- | ------------------------------------------------------------- |
+| 511  | Error: Too restricted | Drone is too restricted to comply (tied up, etc.)             |
+| 512  | Error: Missing tools  | Drone does not have the necessary tools required for the task | 
